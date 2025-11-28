@@ -379,7 +379,55 @@ ul {
   }
 
   /*--------------------------------------------------------------------body---------------------------------------------------------------*/
- https://github.com/HiepLC205/food-ordering-website
+ .DanhSach {
+    background-color: #6081a2;
+    border-bottom: 2px solid #ddd;
+    top: 60px;
+    display: flex; 
+    position: fixed; /* thanh cố định*/
+    z-index: 1;   /* không bị che*/
+    align-items: center; 
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.DanhSach h3 {
+    margin: 0;
+    padding: 15px 20px 15px 10px;
+    color: #d1afaf;
+    font-size: 18px;
+    white-space: nowrap; /* Không xuống dòng */
+    border-right: 1px solid #ccc;
+}
+.DanhSach ul {
+    display: flex; 
+    width: 100%;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap; /* Tự động xuống dòng nếu màn hình nhỏ */
+}
+.theds {
+    width: 85px;
+    height: 55%;
+    text-align: center;
+}
+.DanhSach ul li {
+    margin: 0;
+}
+.DanhSach ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333; 
+    padding: 15px 12px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s; 
+}
+.DanhSach ul li a:hover {
+    background-color: #d32f2f; 
+    color: white; 
+}
 .sanpham{
     margin-left: 0;
 }
